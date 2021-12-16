@@ -5,3 +5,10 @@ C:\Users\olsoyink\source\repos\CodingPractice\CodingPractice\obj\Debug\CodingPra
 C:\Users\olsoyink\source\repos\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csproj.CoreCompileInputs.cache
 C:\Users\olsoyink\source\repos\CodingPractice\CodingPractice\obj\Debug\CodingPractice.exe
 C:\Users\olsoyink\source\repos\CodingPractice\CodingPractice\obj\Debug\CodingPractice.pdb
+D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\bin\Debug\CodingPractice.exe.config
+D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\bin\Debug\CodingPractice.exe
+D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\bin\Debug\CodingPractice.pdb
+D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csproj.AssemblyReference.cache
+D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csproj.CoreCompileInputs.cache
+D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.exe
+D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.pdb

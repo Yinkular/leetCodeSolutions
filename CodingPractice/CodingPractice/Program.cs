@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using CodingPractice.NumberProblems;
 using CodingPractice.StringProblems;
 using CodingPractice.TreeProblems;
 
@@ -14,7 +15,9 @@ namespace CodingPractice
         {
             // StringProblemsRepository.InitAllStringProblems();
 
-            TreeRepository.InitAllTreeProblems();
+            // TreeRepository.InitAllTreeProblems();
+
+            NumberProblemsRepository.InitAllNumberProblems();
 
             Console.ReadLine();
         }

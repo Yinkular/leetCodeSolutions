@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Helpers\PrintHelper.cs" />
+    <Compile Include="NumberProblems\NumberProblemsRepository.cs" />
+    <Compile Include="NumberProblems\PalindromeNumber.cs" />
+    <Compile Include="NumberProblems\TwoSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringProblems\FirstUniqueCharacter.cs" />
