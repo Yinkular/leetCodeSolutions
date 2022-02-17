@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CodingPractice.Helpers;
+using CodingPractice.RealProblems;
 
 namespace CodingPractice.NumberProblems
 {
@@ -17,10 +18,22 @@ namespace CodingPractice.NumberProblems
 
         private static int[] palindromeList = new int[] { 121, -121, 10, -101 };
 
+        private static int number = 50;
+
+        private static int[] sortedNumArray1 = new int[] {1,3,4,7};
+
+        private static int[] sortedNumArray2 = new int[] {2, 3, 5, 6 };
+
         public static void InitAllNumberProblems()
         {
             //TwoSumIndices();
-            IsPalindromeNoString();
+            //IsPalindromeNoString();
+            //GetOddFactorial();
+            //ExecuteRotateArray();
+            //ExecutePascalTriangle();
+            //ExecuteMedianSortedArrays(); 
+            //ExecuteStringToInteger();
+            ExecuteIntegerToROman();
         }
 
         private static void TwoSumIndices()
@@ -39,6 +52,37 @@ namespace CodingPractice.NumberProblems
                 var isPalindrome = PalindromeNumber.IsPalindromeNoString(number);
                 Console.WriteLine(number + " " + isPalindrome);
             }
+        }
+
+        private static void GetOddFactorial()
+        {
+            var response = Factorial.GetOddFactorial(number);
+            PrintHelper.Print(response);
+        }
+
+        private static void ExecuteRotateArray()
+        {
+            RotateArray.Rotate(sortedNumArray1, 3);
+        }
+
+        private static void ExecutePascalTriangle()
+        {
+            PascalsTriangle.Generate(5);
+        }
+
+        private static void ExecuteMedianSortedArrays()
+        {
+            MedianSortedArrays.FindMedianSortedArrays(new int[] { 1,2}, new int[] { 3,4 });
+        }
+
+        private static void ExecuteStringToInteger()
+        {
+            StringToInteger.MyAtoi("   -42");
+        }
+
+        private static void ExecuteIntegerToROman()
+        {
+            IntegerToRoman.IntToRoman(3);
         }
     }
 }

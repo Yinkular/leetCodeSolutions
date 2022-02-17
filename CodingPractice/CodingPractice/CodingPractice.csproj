@@ -44,12 +44,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Helpers\PrintHelper.cs" />
+    <Compile Include="ListProblems\ListNode.cs" />
+    <Compile Include="ListProblems\ListRepository.cs" />
+    <Compile Include="ListProblems\ListSum.cs" />
+    <Compile Include="MatrixProblems\ReshapeMatrix.cs" />
+    <Compile Include="NumberProblems\ArrayIntersect.cs" />
+    <Compile Include="NumberProblems\BuySellStock.cs" />
+    <Compile Include="NumberProblems\ContainsDuplicate.cs" />
+    <Compile Include="NumberProblems\IntegerToRoman.cs" />
+    <Compile Include="NumberProblems\MaximumSubArray.cs" />
+    <Compile Include="NumberProblems\MedianSortedArrays.cs" />
+    <Compile Include="NumberProblems\MergeSortedArray.cs" />
+    <Compile Include="NumberProblems\MoveZeroes.cs" />
     <Compile Include="NumberProblems\NumberProblemsRepository.cs" />
     <Compile Include="NumberProblems\PalindromeNumber.cs" />
+    <Compile Include="NumberProblems\PascalsTriangle.cs" />
+    <Compile Include="NumberProblems\ReverseNumbers.cs" />
+    <Compile Include="NumberProblems\RotateArray.cs" />
+    <Compile Include="NumberProblems\SquaresOfASortedArray.cs" />
+    <Compile Include="NumberProblems\StringToInteger.cs" />
     <Compile Include="NumberProblems\TwoSum.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RealProblems\David\Factorial.cs" />
+    <Compile Include="SearchAndSortProblems\BinarySearch.cs" />
+    <Compile Include="SearchAndSortProblems\SearchAndSortProblemsRepository.cs" />
     <Compile Include="StringProblems\FirstUniqueCharacter.cs" />
+    <Compile Include="StringProblems\LongestSubstring.cs" />
+    <Compile Include="StringProblems\ReverseString.cs" />
     <Compile Include="StringProblems\SortCharsByFrequency.cs" />
     <Compile Include="StringProblems\StringProblemsRepository.cs" />
     <Compile Include="TreeProblems\Structure\BinarySearchTree.cs" />

@@ -10,8 +10,9 @@ namespace CodingPractice.StringProblems
     {
         public static void InitAllStringProblems()
         {
-            CallFirstUniqChar();
-            CallSortedStringByFrequency();
+            //CallFirstUniqChar();
+            //CallSortedStringByFrequency();
+            CallReverseString();
         }
 
         private static void CallFirstUniqChar()
@@ -42,6 +43,13 @@ namespace CodingPractice.StringProblems
                 var response = SortCharsByFrequency.GetSortedString(word);
                 Console.WriteLine(response);
             }
+        }
+
+        private static void CallReverseString()
+        {
+            string s = "Let's take LeetCode contest";
+
+            ReverseString.ReverseWordsInASentence(s);
         }
     }
 }

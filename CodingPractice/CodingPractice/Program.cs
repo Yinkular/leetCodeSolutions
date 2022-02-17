@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CodingPractice.NumberProblems;
+using CodingPractice.SearchAndSortProblems;
 using CodingPractice.StringProblems;
 using CodingPractice.TreeProblems;
 
@@ -18,6 +19,8 @@ namespace CodingPractice
             // TreeRepository.InitAllTreeProblems();
 
             NumberProblemsRepository.InitAllNumberProblems();
+
+            // SearchAndSortProblemsRepository.InitAllProblems();
 
             Console.ReadLine();
         }
