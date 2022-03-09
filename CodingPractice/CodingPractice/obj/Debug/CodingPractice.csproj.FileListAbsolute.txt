@@ -12,3 +12,11 @@ D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPrac
 D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csproj.CoreCompileInputs.cache
 D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.exe
 D:\Personal\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.pdb
+C:\leetCodeSolutions\CodingPractice\CodingPractice\bin\Debug\CodingPractice.exe.config
+C:\leetCodeSolutions\CodingPractice\CodingPractice\bin\Debug\CodingPractice.exe
+C:\leetCodeSolutions\CodingPractice\CodingPractice\bin\Debug\CodingPractice.pdb
+C:\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csproj.AssemblyReference.cache
+C:\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csproj.SuggestedBindingRedirects.cache
+C:\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.csproj.CoreCompileInputs.cache
+C:\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.exe
+C:\leetCodeSolutions\CodingPractice\CodingPractice\obj\Debug\CodingPractice.pdb

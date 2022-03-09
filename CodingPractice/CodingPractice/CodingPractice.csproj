@@ -72,8 +72,12 @@
     <Compile Include="StringProblems\FirstUniqueCharacter.cs" />
     <Compile Include="StringProblems\LongestSubstring.cs" />
     <Compile Include="StringProblems\ReverseString.cs" />
+    <Compile Include="StringProblems\RPN.cs" />
     <Compile Include="StringProblems\SortCharsByFrequency.cs" />
     <Compile Include="StringProblems\StringProblemsRepository.cs" />
+    <Compile Include="StringProblems\TextJustification.cs" />
+    <Compile Include="Traversals\TraversalsRepository.cs" />
+    <Compile Include="Traversals\WallsAndGates.cs" />
     <Compile Include="TreeProblems\Structure\BinarySearchTree.cs" />
     <Compile Include="TreeProblems\Structure\BinaryTree.cs" />
     <Compile Include="TreeProblems\Structure\ITree.cs" />

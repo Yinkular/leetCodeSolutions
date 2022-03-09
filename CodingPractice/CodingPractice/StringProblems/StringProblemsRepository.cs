@@ -12,7 +12,11 @@ namespace CodingPractice.StringProblems
         {
             //CallFirstUniqChar();
             //CallSortedStringByFrequency();
-            CallReverseString();
+            //CallReverseString();
+
+            //JustifyText();
+
+            CallRPN();
         }
 
         private static void CallFirstUniqChar()
@@ -50,6 +54,23 @@ namespace CodingPractice.StringProblems
             string s = "Let's take LeetCode contest";
 
             ReverseString.ReverseWordsInASentence(s);
+        }
+
+        private static void JustifyText()
+        {
+            string[] words = new string[] { "This", "is", "an", "example", "of", "text", "justification."};
+            string[] words2 = new string[] { "What", "must", "be", "acknowledgment", "shall", "be" };
+
+            TextJustification.FullJustify(words, 16);
+        }
+
+        private static void CallRPN()
+        {
+            string[] token1 = new string[] { "2", "1", "+", "3", "*" };
+            string[] token2 = new string[] { "4", "13", "5", "/", "+" };
+            string[] token3 = new string[] { "10", "6", "9", "3", "+", "-11", "*", "/", "*", "17", "+", "5", "+" };
+
+            RPN.EvalRPN(token3);
         }
     }
 }

@@ -7,6 +7,7 @@ using CodingPractice.NumberProblems;
 using CodingPractice.SearchAndSortProblems;
 using CodingPractice.StringProblems;
 using CodingPractice.TreeProblems;
+using CodingPractice.Traversals;
 
 namespace CodingPractice
 {
@@ -18,9 +19,11 @@ namespace CodingPractice
 
             // TreeRepository.InitAllTreeProblems();
 
-            NumberProblemsRepository.InitAllNumberProblems();
+            // NumberProblemsRepository.InitAllNumberProblems();
 
             // SearchAndSortProblemsRepository.InitAllProblems();
+
+            TraversalsRepository.InitAllTraversalProblems();
 
             Console.ReadLine();
         }
