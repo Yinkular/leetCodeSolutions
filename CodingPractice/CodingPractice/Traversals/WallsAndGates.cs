@@ -34,7 +34,8 @@ namespace CodingPractice.Traversals
         public static void FindPaths(int currentIndex, List<Tuple<int, List<int>>> nodes, int[][] rooms)
         {
             Queue<int> queue = new Queue<int>();
-            int steps = 1;
+            HashSet<int> visited = new HashSet<int>();
+            int steps = 0;
 
             var reverseIndexStartRoom = ReverseIndex(currentIndex, rooms.Length);
 
@@ -64,7 +65,11 @@ namespace CodingPractice.Traversals
                     var connectedNodes = nodes[index].Item2;
                     foreach(var node in connectedNodes)
                     {
-                        queue.Enqueue(node);
+                        if (!visited.Contains(node))
+                        {
+                            queue.Enqueue(node);
+                            visited.Add(node);
+                        }
                     }
 
                     queue.Dequeue();
@@ -192,19 +197,19 @@ namespace CodingPractice.Traversals
 
                     // get connected nodes
                     var connectedNodesIndex = new List<int>();
-                    if (top != -1)
+                    if (top != -1 && rooms[top][j] != -1)
                     {
                         connectedNodesIndex.Add(GetIndex(top, j, length));
                     }
-                    if (right != -1)
+                    if (right != -1 && rooms[i][right] != -1)
                     {
                         connectedNodesIndex.Add(GetIndex(i, right, length));
                     }
-                    if (bottom != -1)
+                    if (bottom != -1 && rooms[bottom][j] != -1)
                     {
                         connectedNodesIndex.Add(GetIndex(bottom, j, length));
                     }
-                    if (left != -1)
+                    if (left != -1 && rooms[i][left] != -1)
                     {
                         connectedNodesIndex.Add(GetIndex(i, left, length));
                     }

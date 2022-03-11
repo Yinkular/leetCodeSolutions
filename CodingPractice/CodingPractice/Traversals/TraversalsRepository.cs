@@ -22,7 +22,11 @@ namespace CodingPractice.Traversals
             numbers[2] = new int[4] { 2147483647, -1, 2147483647, -1 };
             numbers[3] = new int[4] { 0, -1, 2147483647, 2147483647 };
 
-            WallsAndGates.WallsAndGatesSolution(numbers);
+            int [][] numbers2 = new int[1][];
+
+            numbers2[0] = new int[8] { 2147483647, 0, 2147483647, 2147483647, 0, 2147483647, -1, 2147483647 };
+
+            WallsAndGates.WallsAndGatesSolution(numbers2);
         }
     }
 }
